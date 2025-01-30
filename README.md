@@ -36,3 +36,4 @@ adb shell chmod 644 /system/priv-app/client-app.apk
 # Reboot the device to apply changes
 adb reboot
 ```
+** Run both the service app and this app. You should then expect to see CAN message data in the logcat.
