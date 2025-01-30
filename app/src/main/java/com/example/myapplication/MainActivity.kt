@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun bindAidlService() {
         val intent = Intent("com.tomtom.sdk.adas.adasis.INavigation").apply {
-            setPackage("com.tomtom.sdk.adas.adasis.demo.service.app.debug")
+            setPackage("com.tomtom.sdk.adas.adasis.demo.service.app")
         }
 
         try {
